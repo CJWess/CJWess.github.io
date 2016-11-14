@@ -12,6 +12,23 @@ footer {
 	padding-top: 6px;
 	width: 230px;
 }
+
+table {
+	margin: auto;
+	border: 2px solid black;
+	border-spacing: 2px;
+	padding: 1px;
+}
+
+td {
+	border: 1px solid black;
+}
+
+th {
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
 a:link {
 	color: blue;
 }

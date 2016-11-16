@@ -64,8 +64,29 @@ a:visited {
 	height: 100%;
 }
 
-@media screen and (max-width: 500px) {
-	body {
-		font-size: 10px;
+@media all and (max-width: 1024px) {
+
+	#mac-banner {
+		display: none;
+	}
+}
+
+@media all and (max-width: 650px) {
+
+	.genre {
+		border-width: auto;
+		border-radius: auto;
+		width: auto;
+		padding: auto;
+	}
+
+	.genre-list	{
+		width: auto;
+		padding: auto;
+	}
+
+	footer {
+		margin-left: auto;
+		width: auto;
 	}
 }
